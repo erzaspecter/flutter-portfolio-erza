@@ -1,0 +1,41 @@
+name: flutter_portfolio_erza
+description: Personal Flutter Portfolio App - Showcasing my skills, projects, and experience as a QA Automation & Mobile Developer.
+
+# Publish ke pub.dev tidak diperlukan untuk portfolio pribadi
+publish_to: 'none'
+
+# Version app (bisa kamu naikkan nanti)
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3   # atau versi yang lebih baru kalau flutter doctor bilang begitu
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.2.0  # Untuk membuka email, GitHub, LinkedIn
+
+  # Dependencies yang biasa dipakai di portfolio (kita tambah pelan-pelan)
+  # google_fonts: ^6.2.1          # untuk font yang lebih bagus
+  # url_launcher: ^6.3.1          # untuk buka link LinkedIn, GitHub, dll
+  # flutter_riverpod: ^2.5.1      # state management (lebih modern daripada setState)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Nanti kalau ada gambar, font, atau assets, tambahkan di sini
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
